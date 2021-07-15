@@ -1,0 +1,137 @@
+body {
+  font-size: 125%;
+  background-color: rgb(255, 234, 238);
+  color: purple;
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background-color: chocolate;
+  position: sticky;
+  top: 0;
+}
+
+h1 {
+  color: white;
+  font-family: serif;
+  font-variant: small-caps;
+  text-align: left;
+  font-size: 200%;
+  display: inline;
+  padding: 20px;
+}
+
+nav {
+  display: inline;
+  font-variant: small-caps;
+  font-family: serif;
+  display: inline;
+  margin: 20px;
+  padding: 10px;
+}
+
+h3 {
+  display: inline-block;
+  color: #0e0d00;
+  font-family: sans-serif;
+  font-variant: small-caps;
+}
+
+.mainimg {
+  display: block;
+  width: 100%;
+  height: auto;
+  background-image: url("mainimg.jpg");
+}
+
+.products {
+  position: relative;
+}
+
+.products img {
+  width: 200px;
+  height: 150px;
+  border: 5px solid black;
+  margin: 20px;
+  display: inline;
+  text-align: center;
+}
+
+.products span {
+  color: rebeccapurple;
+}
+
+#sundae {
+  position: absolute;
+  top: 300px;
+  left: 470px;
+}
+
+#smoothie {
+  position: absolute;
+  top: 300px;
+  left: 720px;
+}
+
+#cake {
+  position: absolute;
+  top: 300px;
+  left: 960px;
+}
+
+#cone {
+  position: absolute;
+  top: 510px;
+  left: 485px;
+}
+
+#candy {
+  position: absolute;
+  top: 510px;
+  left: 735px;
+}
+
+#kulfi {
+  position: absolute;
+  top: 510px;
+  left: 995px;
+}
+
+nav a {
+  float: right;
+  display: inline;
+  width: 180px;
+  margin: 5px;
+  padding: 5px;
+  text-decoration: none;
+  font-family: cursive;
+
+  color: white;
+}
+
+div {
+  text-align: center;
+}
+
+p {
+  margin: 10px;
+  padding: auto;
+}
+
+.offers {
+  text-align: center;
+}
+
+h3 {
+  display: inline-block;
+  padding: 5px;
+  border: dotted palevioletred;
+}
+
+footer {
+  background-color: chocolate;
+  padding: 20px;
+  color: white;
+  text-align: center;
+}
