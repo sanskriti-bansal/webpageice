@@ -4,15 +4,30 @@
 <head>
     <title> Sanskriti Bansal</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
 <body>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
 
     <header>
         <h1>Ice - Cream</h1>
-        <nav>
-            <a href="">Contact Details</a>
-            <a href="">About</a>
+        <nav class="topnav" id="myTopnav">
+            <a href="">About</a> 
+            <a href="">Contact Us</a>
+             
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>        
         </nav>
     </header>
 
@@ -36,13 +51,26 @@
     <div class="products">
         <h3>Our selection includes</h3>
         <br><br>
-        <img src="sundae-day.jpg"><span id="sundae">Sundae</span>
-        <img src="smoothie.jpg"><span id="smoothie">Smoothie</span>
-        <img src="cake.jpg"><span id="cake">Ice cream cake</span>
-        <br>
-        <img src="cone.jpeg"><span id="cone">Cone</span>
-        <img src="ice-cream-candies.jpg"><span id="candy">Candy</span>
-        <img src="kulfi.jpg"><span id="kulfi">Kulfi</span>
+        <div class="products-img">
+        <div class="img-ice">
+        <img src="sundae-day.jpg"><div class="name-ice">Sundae</div>
+    </div>
+        <div class="img-ice">
+        <img src="smoothie.jpg"><div class="name-ice">Smoothie</div>
+    </div>
+        <div class="img-ice">
+        <img src="cake.jpg"><div class="name-ice">Ice cream cake</div>
+    </div>
+        <div class="img-ice">
+        <img src="cone.jpeg"><div class="name-ice">Cone</div>
+    </div>
+        <div class="img-ice">
+        <img src="ice-cream-candies.jpg"><div class="name-ice">Candy</div>
+    </div>
+        <div class="img-ice">
+        <img src="kulfi.jpg"><div class="name-ice">Kulfi</div>
+    </div>
+</div>
     </div>
     <br>
     <br>
