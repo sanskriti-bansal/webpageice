@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title> Sanskriti Bansal</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+
+<body>
+    <script>
+        function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+    </script>
+
+    <header>
+        <h1>Ice - Cream</h1>
+        <nav class="topnav" id="myTopnav">
+            <a href="">About</a> 
+            <a href="">Contact Us</a>
+            <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                <i class="fa fa-bars"></i>
+              </a>        
+        </nav>
+    </header>
+
+    <div class='mainimg'>
+        <img src="mainimg.jpg">
+    </div>
+    <br>
+    <div>
+        <h3>Flavour of the day</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua. Ut enim
+            ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis
+            aute irure dolor in
+            reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+            cupidatat non proident, sunt
+            in culpa qui officia deserunt mollit anim id est laborum
+        </p>
+    </div>
+    <br>
+    <div class="products">
+        <h3>Our selection includes</h3>
+        <br><br>
+        <div class="products-img">
+        <div class="img-ice">
+        <img src="sundae-day.jpg"><div class="name-ice">Sundae</div>
+    </div>
+        <div class="img-ice">
+        <img src="smoothie.jpg"><div class="name-ice">Smoothie</div>
+    </div>
+        <div class="img-ice">
+        <img src="cake.jpg"><div class="name-ice">Ice cream cake</div>
+    </div>
+        <div class="img-ice">
+        <img src="cone.jpeg"><div class="name-ice">Cone</div>
+    </div>
+        <div class="img-ice">
+        <img src="ice-cream-candies.jpg"><div class="name-ice">Candy</div>
+    </div>
+        <div class="img-ice">
+        <img src="kulfi.jpg"><div class="name-ice">Kulfi</div>
+    </div>
+</div>
+    </div>
+    <br>
+    <br>
+    <div class="offers">
+        <h3 id="curr">Current Offers</h3>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+        </p>
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+            dolore magna aliqua.
+        </p>
+    </div>
+    <br>
+    <br>
+    <footer>
+        <form>
+            Name &emsp;: <input type="text" placeholder="Enter Name"><br>
+            Flavour : <input type="text" placeholder="Enter favourite flavour"><br>
+            <input type="submit" value='submit'>
+        </form>
+    </footer>
+</body>
+
+</html>
