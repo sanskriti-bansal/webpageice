@@ -1,0 +1,99 @@
+body {
+  margin: 0.5em;
+  padding: 0em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.grid {
+  justify-content: center;
+}
+
+.box {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  height: 400px;
+  background: orange;
+  margin: 0.5em;
+}
+
+.boxaname {
+  display: flex;
+  flex-direction: row;
+}
+
+.bbox {
+  width: 50%;
+  margin: 0.5em;
+  background: cyan;
+  height: 380px;
+}
+
+.boxaname2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.blbox {
+  width: 95%;
+  margin: 0.5em;
+  background: cyan;
+  height: 180px;
+}
+
+.sbox {
+  background: cyan;
+  width: 48.15%;
+  height: 192px;
+  display: inline;
+  float: left;
+}
+
+.b1 {
+  margin-right: 0.5em;
+  margin-bottom: 0.5em;
+}
+
+.b2 {
+  margin-left: 0.5em;
+  margin-bottom: 0.5em;
+  margin-right: 0em;
+}
+
+.b3 {
+  margin-right: 0.5em;
+  margin-top: 0.5em;
+}
+
+.b4 {
+  margin-left: 0.5em;
+  margin-top: 0.5em;
+}
+
+.name {
+  height: 30px;
+  margin-bottom: -30px;
+  padding: 0.5em 0.5em 0 0.5em;
+  text-align: center;
+}
+
+button {
+  width: 60px;
+  position: fixed;
+  bottom: 0px;
+  right: 0px;
+  background: green;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .box {
+    width: 100%;
+  }
+}
