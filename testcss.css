@@ -1,0 +1,100 @@
+body {
+  margin: 1em;
+  padding: 0em;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  box-sizing: border-box;
+  float: left;
+  width: 30%;
+  height: 600px;
+  background: orange;
+  margin: 1em;
+}
+
+.boxaname {
+  display: flex;
+  flex-direction: column;
+}
+
+.bbox {
+  width: 95%;
+  height: 284px;
+  background-color: cyan;
+}
+
+.a {
+  margin-bottom: 1em;
+}
+
+.b {
+  margin-top: 1em;
+}
+
+form {
+  text-align: center;
+}
+
+.boxaname2 {
+  display: flex;
+  flex-direction: row;
+}
+
+.bbox1 {
+  width: 45%;
+  margin: 1em;
+  height: 280px;
+  background-color: cyan;
+  text-align: center;
+}
+
+.bbox2 {
+  width: 93%;
+  background-color: cyan;
+  text-align: center;
+  margin: 1em;
+  margin-top: 0em;
+  height: 270px;
+}
+
+.name {
+  height: 30px;
+  margin-bottom: -30px;
+  padding: 1em 1em 0 1em;
+  text-align: center;
+}
+
+button {
+  width: 80px;
+  height: 50px;
+  position: sticky;
+  bottom: 0;
+  right: 0;
+  background: green;
+  color: white;
+}
+
+@media (max-width: 768px) {
+  .wrapper {
+    width: 100%;
+  }
+
+  .boxaname2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .bbox1 {
+    width: 93%;
+    height: 175px;
+  }
+  .bbox2 {
+    height: 180px;
+  }
+}
